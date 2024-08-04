@@ -29,6 +29,6 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/requests-testing-project.git
+   git clone https://github.com/szymonizydorek/requests-testing-project.git
    cd requests-testing-project
 
