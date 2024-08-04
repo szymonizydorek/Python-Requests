@@ -11,7 +11,7 @@ def fetch_data(url):
 def print_print(data):
     '''Printing the fetched data'''
     print("Here is JSON retrived:")
-    print(data)
+    print(data)cd
 
 def view_menu():
     '''Display and select option'''
