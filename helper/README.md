@@ -1,20 +1,21 @@
 # Requests Library Testing Project
 
-![Project Logo](pics/Project_Logo.png)  <!-- Adjust the file extension if necessary -->
 
-## Overview
+## What is Python Request library?
 
-This project is designed to test and demonstrate the capabilities of the Python `requests` library. The `requests` library is a powerful tool for making HTTP requests in Python, and this project includes examples and tests to help users understand how to utilize it effectively.
+The requests library in Python is a powerful and user-friendly library for making HTTP requests. It abstracts the complexities of making requests behind a simple API, making it easy to send HTTP requests and handle responses. It supports various HTTP methods, allowing you to interact with web services effectively.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- Request features-LIST:START -->
+
+- Supports all HTTP methods: Including GET, POST, PUT, DELETE, PATCH, etc.
+- Error handling: Provides straightforward error handling for failed requests.
+- Automatic content decoding: Handles various response content types, including JSON.
+- Support for cookies and headers: You can easily set headers and manage cookies.
+  
+<!-- Request features-LIST:END -->
+
 
 ## Features
 
@@ -23,12 +24,31 @@ This project is designed to test and demonstrate the capabilities of the Python 
 - Error handling and response validation
 - Comprehensive test cases to ensure functionality
 
-## Installation
+## Most common Methods in Requests
 
-To get started with this project, follow these steps:
+1. **GET Request**: Fetches data from a specified resource.
+   ```
+   response = requests.get('https://api.example.com/data')   
+   ``` 
+2. **POST Request**: Sends data to a server to create or update a resource.
+   ```
+   payload = {'key': 'value'}
+   response = requests.post('https://api.example.com/data', json=payload)
+   ```
+3. **PUT Request**: Updates a resource with new data.
+   ```
+   payload = {'key': 'updated_value'}
+   response = requests.put('https://api.example.com/data', json=payload)
+   ```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/requests-testing-project.git
-   cd requests-testing-project
+
+
+
+
+
+
+
+
+
+
 
