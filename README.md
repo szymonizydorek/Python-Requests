@@ -1,6 +1,6 @@
 # Requests Library Testing Project
 
-![Project Logo](pics/Project_Logo.png)  <!-- Adjust the file extension if necessary -->
+![Project Logo](helper/pics/Project_Logo.png)  <!-- Adjust the file extension if necessary -->
 
 ## Overview
 
